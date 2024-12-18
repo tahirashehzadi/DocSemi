@@ -20,9 +20,7 @@
 3. Install PyTorch:
     ```sh
     conda install pytorch==1.9.0 torchvision==0.10.0 torchtext==0.10.0 cudatoolkit=10.2 -c pytorch
-OR
-   pip install torch==1.9.0+cu102 torchvision==0.10.0+cu102 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
-```
+ ```
 
 4. Please install mmdet in editable mode first:
     ```sh
@@ -39,20 +37,6 @@ OR
    python setup.py build install ```
 
 
-## Generating Predictions and Evaluation
-
-To generate predictions using the trained model/weights, make sure to download the images, model weights, and configs:
-
-
-1. Run inference:
-    ```sh
-    python inference.py
-    ```
-
-2. The model will infer into the evaluation folder. To evaluate COCO Metrics on the generated predictions:
-    ```sh
-    python evaluate.py
-    ```
 
 ### Results and Models
 
