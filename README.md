@@ -1,21 +1,4 @@
 # DocSemi
-
-# FD-SOS: Vision-Language Open-Set Detectors for Bone Fenestration and Dehiscence Detection from Intraoral Images
-
-###### [Marawan Elbatel](https://marwankefah.github.io/), Keyuan Liu, Yanqi Yang, [Xiaomeng Li](https://xmengli.github.io/)
-
-This is the official implementation of the framework FD-SOS, for **FD** **S**creening utilizing **O**pen-**S**et detectors  in intraoral images.
-
-## Abstract
-Accurate detection of bone fenestration and dehiscence (FD) is crucial for effective treatment planning in dentistry. While cone-beam computed tomography (CBCT) is the gold standard for evaluating FD, it comes with limitations such as radiation exposure, limited accessibility, and higher cost compared to intraoral images. In intraoral images, dentists face challenges in the differential diagnosis of FD. This paper presents a novel and clinically significant application of FD detection solely from intraoral images. To achieve this, we propose FD-SOS, a novel open-set object detector for FD detection from intraoral images. FD-SOS has two novel components: conditional contrastive denoising (CCDN) and teeth-specific matching assignment (TMA). These modules enable FD-SOS to effectively leverage external dental semantics. Experimental results showed that our method outperformed existing detection methods and surpassed dental professionals by 35% recall under the same level of precision.
-
-
-![FDSOS-1.png](graphs/FDSOS-1.png)
-
-
-
-
-
 ## Getting Started
 
 ### Installation
