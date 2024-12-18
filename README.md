@@ -13,14 +13,17 @@
 
 2. Create a virtual environment:
     ```sh
-    conda create -n SOS python=3.8
-    conda activate SOS
+    conda create -n docsemi python=3.8
+    conda activate docsemi
     ```
 
-3. Install [PyTorch](https://pytorch.org/get-started/locally/):
+3. Install PyTorch:
     ```sh
-    pip3 install torch==2.1.2+cu118 torchvision==0.16.2+cu118 torchaudio==2.1.2+cu118 --index-url https://download.pytorch.org/whl/cu118
-    ```
+Conda:
+    conda install pytorch==1.9.0 torchvision==0.10.0 torchtext==0.10.0 cudatoolkit=10.2 -c pytorch
+pip:
+   pip install torch==1.9.0+cu102 torchvision==0.10.0+cu102 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+```
 
 4. Please install mmdet in editable mode first:
     ```sh
