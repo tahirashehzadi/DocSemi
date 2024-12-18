@@ -32,9 +32,10 @@
     cd thirdparty/mmdetection && python -m pip install -e .
      ```
          
-4. Please install mmdet in editable mode first:
+6.This process will install mmdet, detr_od, and detr_ssod in the environment. Additionally, you need to compile the CUDA operations required for deformable attention:
      ```sh
-    cd thirdparty/mmdetection && python -m pip install -e .
+    cd detr_od/models/utils/ops
+   python setup.py build install
      ```
      
 5.Building on mmdetection, we have developed a detection transformer module (detr_od) and a semi-supervised module (detr_ssod) in a similar manner. 
@@ -46,8 +47,7 @@
 
 6.This process will install mmdet, detr_od, and detr_ssod in the environment. Additionally, you need to compile the CUDA operations required for deformable attention:
    ```sh
-   cd detr_od/models/utils/ops
-   python setup.py build install
+   
    ```
 
 
