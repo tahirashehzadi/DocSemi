@@ -53,14 +53,16 @@ Download the [PubLaynet](https://developer.ibm.com/exchanges/data/all/publaynet/
 
 ```
 ##### Training 
--To train the model in a fully supervised setting:
+- To train the model in a fully supervised setting:
    ```sh
 sh tools/dist_train_detr_od.sh dino_detr  ${GPUS}
    ```
-To train model on the semi labeled data setting:
-    ```sh
+- To train model on the semi labeled data setting:
+   ```sh
 sh tools/dist_train_detr_ssod.sh dino_detr_ssod ${FOLD} ${PERCENT} ${GPUS}
-    ```
+   ```
+
+
 We provide detailed results and model weights for reproducibility and further research.
 
 | Methods                       | Multi-task | AP75FD    | APFD      | AP50FD    | AP75      | AP        | AP50      | Model Weights |
