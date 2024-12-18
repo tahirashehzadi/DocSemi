@@ -19,9 +19,8 @@
 
 3. Install PyTorch:
     ```sh
-Conda:
     conda install pytorch==1.9.0 torchvision==0.10.0 torchtext==0.10.0 cudatoolkit=10.2 -c pytorch
-pip:
+OR
    pip install torch==1.9.0+cu102 torchvision==0.10.0+cu102 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
