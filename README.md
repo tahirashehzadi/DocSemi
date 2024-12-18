@@ -41,18 +41,21 @@
 
 ```
 #### Data Preparation
-Download the COCO dataset
+Download the [PubLaynet](https://developer.ibm.com/exchanges/data/all/publaynet/) dataset.
   ```sh
-/publaynet/coco
+/publaynet
     ├── train2017/
     ├── val2017/
     └── annotations/
   	   ├── instances_train2017.json
   	   └── instances_val2017.json
  ```
-###### Results and Models
-
-
+```
+###### Training 
+-To train the model in a fully supervised setting:
+   ```sh
+sh tools/dist_train_detr_od.sh dino_detr
+   ```
 We provide detailed results and model weights for reproducibility and further research.
 
 | Methods                       | Multi-task | AP75FD    | APFD      | AP50FD    | AP75      | AP        | AP50      | Model Weights |
