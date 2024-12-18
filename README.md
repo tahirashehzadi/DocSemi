@@ -58,13 +58,18 @@ Download the [PubLaynet](https://developer.ibm.com/exchanges/data/all/publaynet/
     ```sh
     sh tools/dist_train_detr_od.sh dino_detr ${GPUS}
     ```
-
+- As an example, to train the model in a fully supervised setting with 1 GPUs, you would use the following command:
+    ```sh
+    sh tools/dist_train_detr_od.sh dino_detr 1
+    ```
 - To train the model with semi-labeled data:
     ```sh
     sh tools/dist_train_detr_ssod.sh dino_detr_ssod ${FOLD} ${PERCENT} ${GPUS}
     ```
-
-
+- For instance, you can execute the following script to train our model using 30% labeled data with 2 GPUs on the first split:
+    ```sh
+    sh tools/dist_train_detr_ssod.sh dino_detr_ssod 1 30 2
+    ```
 
 We provide detailed results and model weights for reproducibility and further research.
 
