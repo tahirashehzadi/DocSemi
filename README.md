@@ -29,6 +29,7 @@
     
 5.Building on mmdetection, we have developed a detection transformer module (detr_od) and a semi-supervised module (detr_ssod) in a similar manner. 
   These modules need to be installed first. Ensure you update the module names (detr_od and detr_ssod) in the setup.py file if necessary.
+
     ```sh
    cd ../../ && python -m pip install -e .
    ```
@@ -36,7 +37,8 @@
 6.This process will install mmdet, detr_od, and detr_ssod in the environment. Additionally, you need to compile the CUDA operations required for deformable attention:
    ```sh
    cd detr_od/models/utils/ops
-   python setup.py build install ```
+   python setup.py build install
+```
 
 
 
