@@ -7,8 +7,8 @@
 ### Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/xmed-lab/FD-SOS
-    cd FD-SOS
+    git clone https://github.com/tahirashehzadi/DocSemi.git
+    cd DocSemi
     ```
 
 2. Create a virtual environment:
@@ -22,24 +22,19 @@
     pip3 install torch==2.1.2+cu118 torchvision==0.16.2+cu118 torchaudio==2.1.2+cu118 --index-url https://download.pytorch.org/whl/cu118
     ```
 
-4. Follow [mmdet](https://mmdetection.readthedocs.io/en/latest/get_started.html) to install dependencies :
+4. Please install mmdet in editable mode first:
     ```sh
-   bash requirements.sh
+    cd thirdparty/mmdetection && python -m pip install -e .
     ```
-
-### Download Data, Models, and Configs
-
-5. Download the images:
+5.Building on mmdetection, we have developed a detection transformer module (detr_od) and a semi-supervised module (detr_ssod) in a similar manner. These modules need to be installed first. Ensure you update the module names (detr_od and detr_ssod) in the setup.py file if necessary.
     ```sh
-    #download images
-    gdown https://drive.google.com/uc?id=1Xm794_tzCh1TtIfJYJLFlmv013GTL_Uh
-    unzip images_all.zip -d data/v1/
+   cd ../../ && python -m pip install -e .
+
    ```
-6. Download the model weights, and configs
+6.This process will install mmdet, detr_od, and detr_ssod in the environment. Additionally, you need to compile the CUDA operations required for deformable attention:
    ```sh
-    #download model weights
-    gdown --folder https://drive.google.com/drive/folders/1zgNxQEXhGm3FTIQAKqkYd3YH0O5SHhm_
-    ```
+   cd detr_od/models/utils/ops
+   python setup.py build install ```
 
 
 ## Generating Predictions and Evaluation
