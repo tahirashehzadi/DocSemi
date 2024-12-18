@@ -41,8 +41,15 @@
 
 ```
 #### Data Preparation
-
-
+Download the COCO dataset
+  ```sh
+/publaynet/coco
+    ├── train2017/
+    ├── val2017/
+    └── annotations/
+  	   ├── instances_train2017.json
+  	   └── instances_val2017.json
+ ```
 ###### Results and Models
 
 
