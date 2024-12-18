@@ -49,13 +49,14 @@ Download the [PubLaynet](https://developer.ibm.com/exchanges/data/all/publaynet/
     └── annotations/
   	   ├── instances_train2017.json
   	   └── instances_val2017.json
- ```
+    ```
+
 ```
-###### Training 
+##### Training 
 -To train the model in a fully supervised setting:
    ```sh
 sh tools/dist_train_detr_od.sh dino_detr
-   ```
+    ```
 We provide detailed results and model weights for reproducibility and further research.
 
 | Methods                       | Multi-task | AP75FD    | APFD      | AP50FD    | AP75      | AP        | AP50      | Model Weights |
