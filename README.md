@@ -71,16 +71,16 @@ Download the [PubLaynet](https://developer.ibm.com/exchanges/data/all/publaynet/
     sh tools/dist_train_detr_ssod.sh dino_detr_ssod 1 30 2
     ```
 ### Evalution
-
-       ```sh
-     python tools/test.py <CONFIG_FILE_PATH> <CHECKPOINT_PATH> --eval bbox
-      ```
-- For example, to evaluate the model in a semi-supervised setting:   
+- To evaluate the model: 
     ```sh
-     python tools/test.py configs/detr_ssod/detr_ssod_dino_detr_r50_coco_120k.py work_dirs_exdark/detr_ssod_dino_detr_r50_coco_120k/10/1/fan_atten/iter_180000.pth --eval bbox
+    python tools/test.py <CONFIG_FILE_PATH> <CHECKPOINT_PATH> --eval bbox
+    ```  
 
+- For example, to evaluate the model in a semi-supervised setting: 
+    ```sh
+    python tools/test.py configs/detr_ssod/detr_ssod_dino_detr_r50_coco_120k.py \
+    work_dirs_exdark/detr_ssod_dino_detr_r50_coco_120k/10/1/fan_atten/iter_180000.pth --eval bbox
     ```
-
 
 We provide detailed results and model weights for reproducibility and further research.
 
