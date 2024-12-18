@@ -54,12 +54,12 @@ Download the [PubLaynet](https://developer.ibm.com/exchanges/data/all/publaynet/
 ```
 ##### Training
 
-- **To train the model in a fully supervised setting:**
+- To train the model in a fully supervised setting:
     ```sh
     sh tools/dist_train_detr_od.sh dino_detr ${GPUS}
     ```
 
-- **To train the model with semi-labeled data:**
+- To train the model with semi-labeled data:
     ```sh
     sh tools/dist_train_detr_ssod.sh dino_detr_ssod ${FOLD} ${PERCENT} ${GPUS}
     ```
