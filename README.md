@@ -72,12 +72,12 @@ Download the [PubLaynet](https://developer.ibm.com/exchanges/data/all/publaynet/
     ```
 ### Evalution
 
-    ```sh
+       ```sh
      python tools/test.py <CONFIG_FILE_PATH> <CHECKPOINT_PATH> --eval bbox
-    ```
+      ```
 - For example, to evaluate the model in a semi-supervised setting:   
     ```sh
-        python tools/test.py configs/detr_ssod/detr_ssod_dino_detr_r50_coco_120k.py work_dirs_exdark/detr_ssod_dino_detr_r50_coco_120k/10/1/fan_atten/iter_180000.pth --eval bbox
+     python tools/test.py configs/detr_ssod/detr_ssod_dino_detr_r50_coco_120k.py work_dirs_exdark/detr_ssod_dino_detr_r50_coco_120k/10/1/fan_atten/iter_180000.pth --eval bbox
 
     ```
 
