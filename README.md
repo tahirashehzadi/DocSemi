@@ -4,9 +4,11 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 ## Getting Started
 
-###Table Content 
-- Installation(https://github.com/tahirashehzadi/DocSemi/blob/main/README.md#installation)
-
+### Table Content 
+- [Installation](https://github.com/tahirashehzadi/DocSemi/blob/main/README.md#installation)
+- [Data Preparation](https://github.com/tahirashehzadi/DocSemi#data-preparation)
+- [Training](https://github.com/tahirashehzadi/DocSemi#training)
+- [Evalution](https://github.com/tahirashehzadi/DocSemi?tab=readme-ov-file#evalution)
 ### Installation
 1. Clone the repository:
     ```sh
@@ -46,7 +48,7 @@
 ### Data Preparation
 Download the [PubLaynet](https://developer.ibm.com/exchanges/data/all/publaynet/) dataset.
   ```sh
-/publaynet
+/publaynet/coco
     ├── train2017/
     ├── val2017/
     └── annotations/
@@ -87,7 +89,7 @@ Download the [PubLaynet](https://developer.ibm.com/exchanges/data/all/publaynet/
 
 We provide detailed results and models trained by us bellow:
 
-<div style="text-align: center;">
+<div style="text-align: center;" width="900">
 
 | Label                  | mAP       | AP50    | AP75      | ARL       | Pth files |
 |:----------------------:|:---------:|:-------:|:---------:|:---------:|:----------------------------------------------------------:|
