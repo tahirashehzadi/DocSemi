@@ -103,7 +103,7 @@ We provide detailed results and models trained by us bellow:
 
 Below is a visual analysis of our approach on the Publaynet dataset.
 <div style="text-align: center;">
-    <img src="tables_annotation.jpg" alt="warmup.png" width="900"/>
+    <img src="demo_image.jpg" alt="warmup.png" width="900"/>
 </div>
 
 ### Acknowledgment
