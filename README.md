@@ -101,7 +101,7 @@ We provide detailed results and models trained by us bellow:
 Traditional object detectors fail without warmup on public dental datasets. We provide warmup models for traditional object detectors available [here]().
 
 <div style="text-align: center;">
-    <img src="graphs/warmup.png" alt="warmup.png" width="300"/>
+    <img src="" alt="warmup.png" width="300"/>
 </div>
 
 
