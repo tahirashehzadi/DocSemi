@@ -9,6 +9,8 @@
 - [Data Preparation](https://github.com/tahirashehzadi/DocSemi#data-preparation)
 - [Training](https://github.com/tahirashehzadi/DocSemi#training)
 - [Evalution](https://github.com/tahirashehzadi/DocSemi?tab=readme-ov-file#evalution)
+- [Results](https://github.com/tahirashehzadi/DocSemi#results)
+- [Example](https://github.com/tahirashehzadi/DocSemi#example)
 ### Installation
 1. Clone the repository:
     ```sh
@@ -86,10 +88,9 @@ Download the [PubLaynet](https://developer.ibm.com/exchanges/data/all/publaynet/
     python tools/test.py configs/detr_ssod/detr_ssod_dino_detr_r50_coco_120k.py \
     work_dirs_fan_table_Publaynet_Table_10/detr_ssod_dino_detr_r50_coco_120k/10/1/epoch_12.pth --eval bbox
     ```
-
 We provide detailed results and models trained by us bellow:
-
-<div style="text-align: center;" width="900">
+### Results
+<div style="text-align: center; " width="900">
 
 | Label                  | mAP       | AP50    | AP75      | ARL       | Pth files |
 |:----------------------:|:---------:|:-------:|:---------:|:---------:|:----------------------------------------------------------:|
@@ -99,20 +100,15 @@ We provide detailed results and models trained by us bellow:
 
 </div>
 
+### Example
+
 Below is a visual analysis of our approach on the Publaynet dataset.
 <div style="text-align: center;">
     <img src="tables_annotation.jpg" alt="warmup.png" width="900"/>
 </div>
 
 ### Acknowledgment
-Code is built on [mmdet](https://mmdetection.readthedocs.io/en/latest/get_started.html).
 
 ### Citation
 ````
-@article{elbatel2024fd,
-  title={FD-SOS: Vision-Language Open-Set Detectors for Bone Fenestration and Dehiscence Detection from Intraoral Images},
-  author={Elbatel, Marawan and Liu, Keyuan and Yang, Yanqi and Li, Xiaomeng},
-  journal={arXiv preprint arXiv:2407.09088},
-  year={2024}
-}
 ````
