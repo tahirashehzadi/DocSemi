@@ -4,6 +4,8 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 ## Getting Started
 
+###Table Content 
+- Installation(https://github.com/tahirashehzadi/DocSemi/blob/main/README.md#installation)
 
 ### Installation
 1. Clone the repository:
