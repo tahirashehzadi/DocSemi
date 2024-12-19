@@ -76,7 +76,7 @@ Download the [PubLaynet](https://developer.ibm.com/exchanges/data/all/publaynet/
     ```sh
     sh tools/dist_train_detr_ssod.sh dino_detr_ssod 1 30 2
     ```
-### Evalution
+### Evaluation
 - To evaluate the model: 
     ```sh
     python tools/test.py <CONFIG_FILE_PATH> <CHECKPOINT_PATH> --eval bbox
