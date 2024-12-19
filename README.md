@@ -83,15 +83,17 @@ Download the [PubLaynet](https://developer.ibm.com/exchanges/data/all/publaynet/
     ```
 
 We provide detailed results and models trained by us bellow:
+
 <div style="text-align: center;">
 
 | Label                  | mAP       | AP50    | AP75      | ARL       | Pth files |
-|------------------------|-----------|---------|-----------|-----------|-----------|
-| 10%                    | 96.2      |97.7     |97.6        |98.2      | [CKPT](https://drive.google.com/drive/folders/1dnZ010Yo-Xix1Pd56beTPaIfopSpUfVb?usp=drive_link) |
+|:----------------------:|:---------:|:-------:|:---------:|:---------:|:----------------------------------------------------------:|
+| 10%                    | 96.2      |97.7     |97.6       |98.2       | [CKPT](https://drive.google.com/drive/folders/1dnZ010Yo-Xix1Pd56beTPaIfopSpUfVb?usp=drive_link) |
 | 30%                    | 96.2      |97.7     |97.4       |98.3       | [CKPT](https://drive.google.com/file/d/1cRpZyOyWXz0RajxwtZEm3NYYZZWds6HG/view?usp=drive_link) |
 | 50%                    | 95.9      |97.7     |97.5       |98.0       | [CKPT](https://drive.google.com/file/d/1gJMSdiV5yKFNlYYFjv3Gc-4UPbVjAc6Q/view?usp=drive_link)|
 
 </div>
+
 
 #### *requires pre-training on public dental dataset after initialization from ImageNet pre-trained weights.
 #### † refers to fine-tuning existing VLM pre-trained models.
