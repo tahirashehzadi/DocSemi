@@ -1,5 +1,5 @@
 # DocSemi
-[![GitHub issues]([https://gitHub.com/mindgarage-shan/transformer_object_detection_survey/issues/)](https://github.com/tahirashehzadi/DocSemi/issues)
+[![GitHub issues](https://img.shields.io/github/issues/tahirashehzadi/DocSemi)](https://github.com/tahirashehzadi/DocSemi/issues)
 ## Getting Started
 ### Table of Content
 - [Installation](#installation)
