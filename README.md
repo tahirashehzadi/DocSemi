@@ -79,24 +79,19 @@ Download the [PubLaynet](https://developer.ibm.com/exchanges/data/all/publaynet/
 - For example, to evaluate the model in a semi-supervised setting: 
     ```sh
     python tools/test.py configs/detr_ssod/detr_ssod_dino_detr_r50_coco_120k.py \
-    work_dirs_exdark/detr_ssod_dino_detr_r50_coco_120k/10/1/fan_atten/iter_180000.pth --eval bbox
+    work_dirs_fan_table_Publaynet_Table_10/detr_ssod_dino_detr_r50_coco_120k/10/1/epoch_12.pth --eval bbox
     ```
 
-We provide detailed results and model weights for reproducibility and further research.
+We provide detailed results and models trained by us bellow:
 
-| Methods                       | Multi-task | AP75FD    | APFD      | AP50FD    | AP75      | AP        | AP50      | Model Weights |
-|-------------------------------|------------|-----------|-----------|-----------|-----------|-----------|-----------|--------------|
-| **Traditional Detectors***    |            |           |           |           |           |           |           |              |
-| Diffusion-DETR w/o pretraining | ✗          | 0.04      | 1.31      | 7.58      | 0.04      | 1.7       | 8.85      | [Download](https://drive.google.com/drive/folders/1l9EsF5x8QTV3x0QT6yKeBpAAkR8fIiqH?usp=drive_link) |
-| Diffusion-DETR                | ✗          | 55.52     | 51.42     | 61.28     | 62.58     | 59.06     | 66.37     | [Download](https://drive.google.com/drive/folders/1wtbbvAHTwpmRHfyMjc2xuYbBAqvHrY7L?usp=drive_link) |
-| DDETR                         | ✗          | 56.92     | 50.41     | 60.51     | 62.68     | 57.44     | 65.48     | [Download](https://drive.google.com/drive/folders/1lWdPoUGe5HQvq5eU4SPCPnXLCf47pqwD?usp=drive_link) |
-| DINO                          | ✗          | 54.03     | 49.68     | 57.94     | 55.13     | 51.65     | 57.65     | [Download](https://drive.google.com/drive/folders/1yuxNT8OQefXn7fmcY6P7yvWgNY5pPRz3?usp=drive_link) |
-| **Open-Set Detectors †**      |            |           |           |           |           |           |           |              |
-| GLIP                          | ✗          | 40.57     | 32.0      | 46.34     | 51.3      | 40.47     | 55.85     | [Download](https://drive.google.com/drive/folders/1sqnFCCi9mWEBcGhUw1flZUwCz8Y70efO?usp=drive_link) |
-| GDINO                         | ✗          | 58.32     | 56.59     | 61.07     | 63.69     | 62.59     | 65.89     | [Download](https://drive.google.com/drive/folders/1dnZ010Yo-Xix1Pd56beTPaIfopSpUfVb?usp=drive_link) |
-| GLIP                          | ✔️         | 41.78     | 33.68     | 47.09     | 51.97     | 42.73     | 56.7      | [Download](https://drive.google.com/drive/folders/1cZWXUyxbvhJhiikW8srecyOyhMYAmEOA?usp=sharing) |
-| GDINO (our baseline)          | ✔️         | 55.55     | 54.75     | 59.99     | 62.6      | 62.08     | 65.81     | [Download](https://drive.google.com/drive/folders/1wiwm1j90HTiriB5UX4gwFRN4_In679FL?usp=sharing) |
-| **FD-SOS (ours)**             | ✔️         | **62.45** | **60.84** | **66.01** | **67.07** | **65.97** | **69.67** | [Download](https://drive.google.com/drive/folders/1tY1yDnCE3AA7crXGiHNBN5fGb-zi4XVN?usp=drive_link) |
+
+| Label                  | mAP       | AP50    | AP75      | ARL       | Pth files |
+|------------------------|-----------|---------|-----------|-----------|-----------|
+| 10%                    | 96.2      |97.7     |97.6        |98.2      | [CKPT](https://drive.google.com/drive/folders/1dnZ010Yo-Xix1Pd56beTPaIfopSpUfVb?usp=drive_link) |
+| 30%                    | 96.2      |97.7     |97.4       |98.3       | [CKPT](https://drive.google.com/file/d/1cRpZyOyWXz0RajxwtZEm3NYYZZWds6HG/view?usp=drive_link) |
+| 50%                    | 95.9      |97.7     |97.5       |98.0       | [CKPT](https://drive.google.com/file/d/1gJMSdiV5yKFNlYYFjv3Gc-4UPbVjAc6Q/view?usp=drive_link)|
+
+
 
 #### *requires pre-training on public dental dataset after initialization from ImageNet pre-trained weights.
 #### † refers to fine-tuning existing VLM pre-trained models.
@@ -106,11 +101,6 @@ Traditional object detectors fail without warmup on public dental datasets. We p
 <div style="text-align: center;">
     <img src="graphs/warmup.png" alt="warmup.png" width="300"/>
 </div>
-
-## Training FD-SOS
-
-To train FD-SOS , please follow the instructions to [get started](#getting-started
-) and install dependencies.
 
 
 
