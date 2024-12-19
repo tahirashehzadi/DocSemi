@@ -4,6 +4,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 ## Getting Started
 
+
 ### Installation
 1. Clone the repository:
     ```sh
@@ -94,19 +95,10 @@ We provide detailed results and models trained by us bellow:
 
 </div>
 
-
+Below is a visual analysis of our approach on the Publaynet dataset.
 <div style="text-align: center;">
     <img src="tables_annotation.jpg" alt="warmup.png" width="900"/>
 </div>
-
-
-
-All configs for all experiments are available in [train_FD.sh](train_FD.sh).
-
-To run FD-SOS benchmark, make sure all images are available in [data/v1/images_all](data/v1/images_all) and run:
-```
-bash train.sh
-```
 
 ### Acknowledgment
 Code is built on [mmdet](https://mmdetection.readthedocs.io/en/latest/get_started.html).
