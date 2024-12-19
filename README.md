@@ -2,6 +2,10 @@
 [![Paper](https://img.shields.io/badge/Paper-Read-blue)](https://example.com/your-paper-link)
 [![GitHub issues](https://img.shields.io/github/issues/tahirashehzadi/DocSemi)](https://github.com/tahirashehzadi/DocSemi/issues)
 [![GitHub license](https://img.shields.io/github/license/tahirashehzadi/DocSemi)](https://github.com/tahirashehzadi/DocSemi/blob/main/LICENSE)
+<div style="text-align: center;">
+    <img src="main_image.jpg" alt="warmup.png" width="900"/>
+</div>
+
 ## Getting Started
 ### Table of Content
 - [Installation](#installation)
