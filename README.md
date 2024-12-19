@@ -1,5 +1,7 @@
 # DocSemi
+[![Paper](https://img.shields.io/badge/Paper-Read-blue)](https://example.com/your-paper-link)
 [![GitHub issues](https://img.shields.io/github/issues/tahirashehzadi/DocSemi)](https://github.com/tahirashehzadi/DocSemi/issues)
+[![GitHub license](https://img.shields.io/github/license/tahirashehzadi/DocSemi)](https://github.com/tahirashehzadi/DocSemi/blob/main/LICENSE)
 ## Getting Started
 ### Table of Content
 - [Installation](#installation)
