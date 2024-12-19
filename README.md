@@ -89,15 +89,46 @@ Download the [PubLaynet](https://developer.ibm.com/exchanges/data/all/publaynet/
     ```
 We provide detailed results and models trained by us bellow:
 ### Results
-<div style="text-align: center; " width="900">
 
-| Label                  | mAP       | AP50    | AP75      | ARL       | Pth files |
-|:----------------------:|:---------:|:-------:|:---------:|:---------:|:----------------------------------------------------------:|
-| 10%                    | 96.2      |97.7     |97.6       |98.2       | [CKPT](https://drive.google.com/drive/folders/1dnZ010Yo-Xix1Pd56beTPaIfopSpUfVb?usp=drive_link) |
-| 30%                    | 96.2      |97.7     |97.4       |98.3       | [CKPT](https://drive.google.com/file/d/1cRpZyOyWXz0RajxwtZEm3NYYZZWds6HG/view?usp=drive_link) |
-| 50%                    | 95.9      |97.7     |97.5       |98.0       | [CKPT](https://drive.google.com/file/d/1gJMSdiV5yKFNlYYFjv3Gc-4UPbVjAc6Q/view?usp=drive_link)|
+<table>
+  <thead>
+    <tr>
+      <th>Label</th>
+      <th>mAP</th>
+      <th>AP50</th>
+      <th>AP75</th>
+      <th>ARL</th>
+      <th>Pth files</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10%</td>
+      <td>96.2</td>
+      <td>97.7</td>
+      <td>97.6</td>
+      <td>98.2</td>
+      <td><a href="https://drive.google.com/drive/folders/1dnZ010Yo-Xix1Pd56beTPaIfopSpUfVb?usp=drive_link">CKPT</a></td>
+    </tr>
+    <tr>
+      <td>30%</td>
+      <td>96.2</td>
+      <td>97.7</td>
+      <td>97.4</td>
+      <td>98.3</td>
+      <td><a href="https://drive.google.com/file/d/1cRpZyOyWXz0RajxwtZEm3NYYZZWds6HG/view?usp=drive_link">CKPT</a></td>
+    </tr>
+    <tr>
+      <td>50%</td>
+      <td>95.9</td>
+      <td>97.7</td>
+      <td>97.5</td>
+      <td>98.0</td>
+      <td><a href="https://drive.google.com/file/d/1gJMSdiV5yKFNlYYFjv3Gc-4UPbVjAc6Q/view?usp=drive_link">CKPT</a></td>
+    </tr>
+  </tbody>
+</table>
 
-</div>
 
 ### Example
 
