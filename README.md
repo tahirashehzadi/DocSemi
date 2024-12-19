@@ -95,11 +95,6 @@ We provide detailed results and models trained by us bellow:
 </div>
 
 
-#### *requires pre-training on public dental dataset after initialization from ImageNet pre-trained weights.
-#### † refers to fine-tuning existing VLM pre-trained models.
-
-Traditional object detectors fail without warmup on public dental datasets. We provide warmup models for traditional object detectors available [here]().
-
 <div style="text-align: center;">
     <img src="tables_annotation.jpg" alt="warmup.png" width="900"/>
 </div>
