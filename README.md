@@ -88,44 +88,14 @@ Download the [PubLaynet](https://developer.ibm.com/exchanges/data/all/publaynet/
 We provide detailed results and models trained by us bellow:
 ### Results
 
-<table style="font-size: 16px; border: 2px solid black; border-collapse: collapse; width: 100%;">
-  <thead>
-    <tr style="background-color: #f2f2f2; height: 50px;">
-      <th style="padding: 10px; border: 1px solid black;">Label</th>
-      <th style="padding: 10px; border: 1px solid black;">mAP</th>
-      <th style="padding: 10px; border: 1px solid black;">AP50</th>
-      <th style="padding: 10px; border: 1px solid black;">AP75</th>
-      <th style="padding: 10px; border: 1px solid black;">ARL</th>
-      <th style="padding: 10px; border: 1px solid black;">Pth files</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="height: 40px;">
-      <td style="padding: 15px; border: 1px solid black; text-align: center;">10%</td>
-      <td style="padding: 15px; border: 1px solid black; text-align: center;">96.2</td>
-      <td style="padding: 15px; border: 1px solid black; text-align: center;">97.7</td>
-      <td style="padding: 15px; border: 1px solid black; text-align: center;">97.6</td>
-      <td style="padding: 15px; border: 1px solid black; text-align: center;">98.2</td>
-      <td style="padding: 15px; border: 1px solid black; text-align: center;"><a href="https://drive.google.com/drive/folders/1dnZ010Yo-Xix1Pd56beTPaIfopSpUfVb?usp=drive_link">CKPT</a></td>
-    </tr>
-    <tr style="height: 40px;">
-      <td style="padding: 15px; border: 1px solid black; text-align: center;">30%</td>
-      <td style="padding: 15px; border: 1px solid black; text-align: center;">96.2</td>
-      <td style="padding: 15px; border: 1px solid black; text-align: center;">97.7</td>
-      <td style="padding: 15px; border: 1px solid black; text-align: center;">97.4</td>
-      <td style="padding: 15px; border: 1px solid black; text-align: center;">98.3</td>
-      <td style="padding: 15px; border: 1px solid black; text-align: center;"><a href="https://drive.google.com/file/d/1cRpZyOyWXz0RajxwtZEm3NYYZZWds6HG/view?usp=drive_link">CKPT</a></td>
-    </tr>
-    <tr style="height: 40px;">
-      <td style="padding: 15px; border: 1px solid black; text-align: center;">50%</td>
-      <td style="padding: 15px; border: 1px solid black; text-align: center;">95.9</td>
-      <td style="padding: 15px; border: 1px solid black; text-align: center;">97.7</td>
-      <td style="padding: 15px; border: 1px solid black; text-align: center;">97.5</td>
-      <td style="padding: 15px; border: 1px solid black; text-align: center;">98.0</td>
-      <td style="padding: 15px; border: 1px solid black; text-align: center;"><a href="https://drive.google.com/file/d/1gJMSdiV5yKFNlYYFjv3Gc-4UPbVjAc6Q/view?usp=drive_link">CKPT</a></td>
-    </tr>
-  </tbody>
-</table>
++-------+------+-------+-------+------+----------------------------------------------------------+
+| Label | mAP  | AP50  | AP75  | ARL  | Pth files                                                |
++-------+------+-------+-------+------+----------------------------------------------------------+
+| 10%   | 96.2 | 97.7  | 97.6  | 98.2 | [CKPT](https://drive.google.com/drive/folders/1dnZ010Yo)|
+| 30%   | 96.2 | 97.7  | 97.4  | 98.3 | [CKPT](https://drive.google.com/file/d/1cRpZyOyWXz0Rajx)|
+| 50%   | 95.9 | 97.7  | 97.5  | 98.0 | [CKPT](https://drive.google.com/file/d/1gJMSdiV5yKFNlYY)|
++-------+------+-------+-------+------+----------------------------------------------------------+
+
 
 
 ### Example
