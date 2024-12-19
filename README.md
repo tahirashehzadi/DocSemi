@@ -3,14 +3,13 @@
 [![GitHub issues](https://img.shields.io/github/issues/mindgarage-shan/transformer_object_detection_survey)](https://gitHub.com/mindgarage-shan/transformer_object_detection_survey/issues/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 ## Getting Started
-
-### Table Content 
-- [Installation](https://github.com/tahirashehzadi/DocSemi/blob/main/README.md#installation)
-- [Data Preparation](https://github.com/tahirashehzadi/DocSemi#data-preparation)
-- [Training](https://github.com/tahirashehzadi/DocSemi#training)
-- [Evalution](https://github.com/tahirashehzadi/DocSemi?tab=readme-ov-file#evalution)
-- [Results](https://github.com/tahirashehzadi/DocSemi#results)
-- [Example](https://github.com/tahirashehzadi/DocSemi#example)
+### Table of Content
+- [Installation](#installation)
+- [Data Preparation](#data-preparation)
+- [Training](#training)
+- [Evaluation](#evaluation)
+- [Results](#results)
+- [Example](#example)
 ### Installation
 1. Clone the repository:
     ```sh
