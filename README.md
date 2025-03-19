@@ -59,7 +59,7 @@ Download the [PubLaynet](https://developer.ibm.com/exchanges/data/all/publaynet/
     └── annotations/
   	   ├── instances_train2017.json
   	   └── instances_val2017.json
-  ```
+   ```
 
 ```
 ### Training
