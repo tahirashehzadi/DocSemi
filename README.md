@@ -53,14 +53,14 @@
 ```
 ### Data Preparation
 Download the [PubLaynet](https://developer.ibm.com/exchanges/data/all/publaynet/) dataset.
-```sh
+  ```sh
 /publaynet/coco
     ├── train2017/
     ├── val2017/
     └── annotations/
   	   ├── instances_train2017.json
   	   └── instances_val2017.json
-```
+  ```
 
 
 ### Training
