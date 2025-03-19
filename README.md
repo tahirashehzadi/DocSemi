@@ -25,7 +25,8 @@
     ```sh
     conda create -n docsemi python=3.8
     conda activate docsemi
-    ```
+
+     ```
 
 3. Install PyTorch:
     ```sh
